@@ -28,7 +28,6 @@ class FetchSites extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.getSites}>Click</button>
         {this.state.sites && <DisplaySites siteInfos = {this.state.sites}/>}
       </div>
     );
