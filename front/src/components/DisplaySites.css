@@ -1,6 +1,20 @@
+.sites-header-container {
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1566374296188-1f0db352df45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60");
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.sites-h2 {
+  color: white;
+  font-size: 3rem;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .site-figure {
@@ -9,6 +23,7 @@
   display: flex;
   flex-direction: column;
   height: auto;
+  margin: 1rem;
   text-align: center;
   width: 400px;
 }

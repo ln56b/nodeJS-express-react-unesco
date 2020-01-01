@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import DisplaySites from './DisplaySites';
+import DisplayList from './DisplayList';
 
 class FetchSites extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class FetchSites extends Component {
     return (
       <div>
         {this.state.sites && <DisplaySites siteInfos = {this.state.sites}/>}
-
+        {this.state.sites && <DisplayList siteInfos = {this.state.sites}/>}
       </div>
     );
   }

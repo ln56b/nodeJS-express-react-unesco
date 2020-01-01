@@ -25,11 +25,11 @@ class FetchCountry extends Component {
     })
   }
 
+
   render() {
     return (
       <div>
-        {this.state.countries && <DisplayCountry countries = {this.state.countries}/>}
-
+        {this.state.countries && <DisplayCountry countries={this.state.countries}/> }
       </div>
     );
   }

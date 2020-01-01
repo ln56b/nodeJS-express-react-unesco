@@ -7,8 +7,8 @@ import FetchCountry from './components/FetchCountry';
 function App() {
   return (
     <Switch>
-      <Route path='/api/sites' component={FetchSites}/>
       <Route path='/api/list' component={FetchCountry}/>
+      <Route path='/api/sites' component={FetchSites}/>
 
     </Switch>
   );
