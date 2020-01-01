@@ -6,7 +6,7 @@ class FetchSites extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      sites : {}
+      sites : ''
     };
   this.getSites = this.getSites.bind(this); 
   }
@@ -29,7 +29,7 @@ class FetchSites extends Component {
     return (
       <div>
         <button onClick={this.getSites}>Click</button>
-        <DisplaySites infos = {this.state.sites}/>
+        {this.state.sites && <DisplaySites siteInfos = {this.state.sites}/>}
       </div>
     );
   }

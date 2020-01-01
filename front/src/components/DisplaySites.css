@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-figure {
+  border: 1px solid grey;
+  height: 500px;
+  width: 400px;
+}
+
+.site-name {
+  padding: 1rem;
+}
