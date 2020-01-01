@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import DisplaySites from './DisplaySites';
+import DisplayList from './DisplayList';
 
-class FetchSites extends Component {
+class FetchList extends Component {
   constructor(props) {
     super(props);
     this.state = { 
@@ -28,11 +28,11 @@ class FetchSites extends Component {
   render() {
     return (
       <div>
-        {this.state.sites && <DisplaySites siteInfos = {this.state.sites}/>}
+        {this.state.sites && <DisplayList siteInfos = {this.state.sites}/>}
 
       </div>
     );
   }
 }
 
-export default FetchSites;
+export default FetchList;

@@ -4,11 +4,20 @@
 }
 
 .site-figure {
-  border: 1px solid grey;
-  height: 500px;
+  align-items: center;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
   width: 400px;
 }
 
 .site-name {
+  padding: 0 1rem;
+}
+
+.site_pic {
+  object-fit: contain;
   padding: 1rem;
 }

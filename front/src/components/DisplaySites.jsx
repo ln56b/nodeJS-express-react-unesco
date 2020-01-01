@@ -8,9 +8,9 @@ const DisplaySites = ({ siteInfos }) => {
       {siteInfos
       .map(site => 
         <figure className="site-figure">
+          <img className="site_pic" src={site.main_pic} />
           <h4 className="site-name">{site.site_name}</h4>
           <p className="site-country">{site.country}</p>
-          <img src={site.main_pic} />
         </figure>
         )}
     </div>
