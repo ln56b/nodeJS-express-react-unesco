@@ -21,7 +21,6 @@ class FetchCountry extends Component {
       this.setState({
         countries:data
       })
-      console.log(data)
     })
   }
 
