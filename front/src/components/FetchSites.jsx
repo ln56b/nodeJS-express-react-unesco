@@ -7,11 +7,11 @@ class FetchSites extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      sites : ''
+      sites : '',
     };
   this.getSites = this.getSites.bind(this); 
   }
-  componentDidMount(){
+  componentDidMount() {
     this.getSites()
   };
 
@@ -24,7 +24,7 @@ class FetchSites extends Component {
       })
       console.log(data)
     })
-  }
+  } 
 
   render() {
     return (

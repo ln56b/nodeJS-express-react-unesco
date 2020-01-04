@@ -28,11 +28,16 @@
   width: 400px;
 }
 
+.site_pic {
+  object-fit: contain;
+  padding: 1rem;
+}
+
 .site-name {
   padding: 0 1rem;
 }
 
-.site_pic {
-  object-fit: contain;
-  padding: 1rem;
+.site-country {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }

@@ -6,7 +6,7 @@ const DisplaySites = ({ siteInfos }) => {
   return(
     <Fragment>
       <div className="sites-header-container"> 
-        <h2 className="sites-h2"> Gallery </h2>
+        <h2 className="sites-h2"> Site List </h2>
       </div>
       <div className="container">
         {siteInfos

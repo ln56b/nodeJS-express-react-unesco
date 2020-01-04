@@ -134,4 +134,18 @@ router.delete('/api/sites/indangered', (req, res) => {
   });
 });
 
+
+// 12. Get all countires
+router.get('/api/countries', (req, res) => {
+  let sql = 'SELECT * FROM country';
+  connection.query(sql, (err, results) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send('Error getting the countries');
+    } else {
+      res.json(results);
+    }
+  });
+});
+
 module.exports = router;

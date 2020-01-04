@@ -1,0 +1,22 @@
+.searchBarDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBarInput {
+  border: 1px solid rgb(71, 59, 59);
+  height: 3rem;
+  padding: 0.5rem;
+  width: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+  .searchBarDiv {
+    position: absolute;
+    padding-left: 5rem;
+  }
+  .searchBarInput {
+    width: 300px;
+  }
+}
